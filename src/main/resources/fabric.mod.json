@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cpsmod",
+  "version": "${version}",
+  "name": "CPS Counter",
+  "description": "Displays your real left/right click CPS on your own screen. No server-side effect.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.cpsmod.CpsHudModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
